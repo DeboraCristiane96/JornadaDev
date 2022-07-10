@@ -1,4 +1,25 @@
+style.css
+Quem pode acessar
 
+Propriedades do sistema
+Tipo
+Folha de estilo
+Tamanho
+2 KB
+Armazenamento usado
+2 KB
+Local
+day 03
+Proprietário
+Daniel Santos
+Modificado
+10 de abr. de 2022 por Daniel Santos
+Aberto
+11:24 por mim
+Criado em
+10 de abr. de 2022
+Sem descrição
+Os leitores podem fazer o download
 * {
     margin: 0;
     padding: 0;
@@ -18,13 +39,13 @@
 .left-section {
     grid-column: span 2;
     height: 100%;
-    background-color: #999999;
+    background-color: #1a025c;
 }
 
 .right-section {
     grid-column: span 5;
     height: 100%;
-    background-color: #424a50;
+    background-color: #0d5992;
     border-radius: 0px 60px 0px 0px;
 }
 
@@ -34,12 +55,12 @@
 
 .profile {
     width: 100%;
-    border-bottom: 2px solid #1a1919;
+    border-bottom: 2px solid #eeeeee;
 }
 
 .profile .profile-image {
-    width: 20%;
-    border-radius: 10%;
+    width: 100%;
+    border-radius: 100%;
 }
 
 .name {
@@ -100,5 +121,40 @@
 }
 .about-me-contents {
     font-size: 18px;
-    color: #181717;
+    color: #eeeeee;
+}
+
+.experience-contents,
+.education-contents,
+.awards-contents {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 2rem;
+    color: #F1F8FD;
+}
+
+.exp-company-name,
+.education-school-name,
+.awards-company-name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.exp-time-period,
+.educationp-time-period,
+.awards-time-period {
+    font-size: 18px;
+}
+
+.exp-position,
+.education-subject,
+.awards-name {
+    font-size: 25px;
+}
+
+.exp-desc,
+.education-desc,
+.awards-desc {
+    font-size: 16px;
+    padding-left: 5px;
 }
