@@ -1,1 +1,2 @@
-# JorrnadaDev
+# JornadaDev
+Currículo do jornada Dev
